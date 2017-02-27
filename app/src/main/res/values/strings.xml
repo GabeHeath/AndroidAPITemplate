@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">API Template</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login dialogs -->
+    <string name="no_internet_dialog_title">No internet connection detected.</string>
+    <string name="no_internet_dialog_message">This app requires an active connection. Please connect to the internet and try again.</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="failed_to_connect_dialog_title">Connection Failed</string>
+    <string name="failed_to_connect_dialog_message">Could not reach server.</string>
+
+    <!-- login activity -->
+    <string name="login_toolbar_label">Login</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_submit">Sign in</string>
+    <string name="login_register_prompt">Or, create an account</string>
+    <string name="login_divider_or">OR</string>
+    <string name="login_register_link">Register</string>
+    <string name="forgot_password_link">Forgot password</string>
+
+    <!-- warnings -->
+    <string name="warning_name_empty">Name cannot be empty</string>
+    <string name="warning_name_lowercase">Name should start from an uppercase letter</string>
+    <string name="warning_email_empty">Email cannot be empty</string>
+    <string name="warning_email_invalid">Invalid email format</string>
+    <string name="warning_password_empty">Password cannot be empty</string>
+    <string name="warning_password_too_short">Password cannot be shorter than 6 characters</string>
+    <string name="warning_passwords_do_not_match">Passwords do not match</string>
+    <string name="warning_username_empty">Username cannot be empty</string>
+    <string name="warning_login_failed">Login failed. Try again.</string>
+    <string name="warning_api_call_failed">Something went wrong. Try again.</string>
+
+    <!-- main activity -->
+    <string name="main_toolbar_label">Main</string>
+
+    <!-- register activity -->
+    <string name="registration_first_name">First name</string>
+    <string name="registration_last_name">Last name</string>
+    <string name="registration_username">Username</string>
+    <string name="registration_email">Email</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_password_confirm">Confirm password</string>
+    <string name="register_submit">Submit</string>
+    <string name="registration_username_taken">That username is already taken</string>
+    <string name="registration_username_and_email_taken">That username and email are already in use</string>
+    <string name="registration_email_taken">That email is already in use</string>
+    <string name="new_registration_alert_instructions">Thank you for registering! Before logging in you must check your email and confirm your account.</string>
+    <string name="register_toolbar_label">Create an account</string>
+
+    <!-- email update activity -->
+    <string name="update_email">New email</string>
+    <string name="email_update_submit">Submit</string>
+    <string name="email_update_label">Change email</string>
+    <string name="email_update_instructions">Check your email to confirm your new email address.</string>
+
+    <!-- forgot password activity -->
+    <string name="forgot_password_hint">Email</string>
+    <string name="forgot_password_label">Forgot password</string>
+    <string name="forgot_password_alert_instructions">Check your email to confirm your password reset.</string>
+
+    <!-- password update activity -->
+    <string name="update_password">New password</string>
+    <string name="update_current_password">Current password</string>
+    <string name="update_password_confirmation">Confirm password</string>
+    <string name="password_update_submit">Submit</string>
+    <string name="password_update_label">Change password</string>
+    <string name="password_update_instructions">Password successfully changed</string>
+
+</resources>
